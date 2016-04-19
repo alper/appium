@@ -14,7 +14,7 @@ Appium on OS X supports iOS and Android testing.
   from source, simply run `sudo grunt authorize` to do the same thing. If you
   are running [Appium.app](https://github.com/appium/appium-dot-app), you can
   authorize iOS through the GUI.
-* If you're on Xcode 6, you need to launch each simulator you intend to use
+* If you're on Xcode 6 (and 7), you need to launch each simulator you intend to use
   with appium in advance, and change the default to actually show the soft
   keyboard if you want sendKeys to work. You can do this by clicking on any
   textfield and hitting command-K until you notice the soft keyboard show up.
